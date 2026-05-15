@@ -15,10 +15,7 @@ env/
 ENV/
 .env/
 
-# Large data files (too large for GitHub — keep locally or in cloud storage)
-backend/data/insightscholar.db
-backend/data/vector_index.json
-backend/data/scholar_cache.json
+# Large data files are tracked via Git LFS (see .gitattributes)
 
 # Config with API keys — never commit secrets
 run_insightscholar.config
