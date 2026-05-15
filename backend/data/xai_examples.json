@@ -1,0 +1,205 @@
+[
+  {
+    "query": "explainable AI recommendation systems",
+    "paper_id": "vu_erEyB9hgJ",
+    "paper_title": "The explainable structure of deep neural network for recommendation systems",
+    "score": 0.7742090200556735,
+    "baseline_score": 0.7175108009268271,
+    "top_driver": "title_match",
+    "grounding_terms": [
+      "systems",
+      "explainable",
+      "recommendation"
+    ],
+    "evidence_snippets": [
+      "title mentions \"systems\"",
+      "title mentions \"explainable\"",
+      "title mentions \"recommendation\""
+    ],
+    "feature_values": {
+      "semantic_similarity": 0.948651134967804,
+      "bm25_keyword": 0.7962051132976707,
+      "title_match": 1.0,
+      "tag_overlap": 0.13333333333333333,
+      "recency": 0.92,
+      "content_completeness": 1.0,
+      "cold_start_support": 0.9860000000000001
+    },
+    "feature_contributions": {
+      "semantic_similarity": -0.0026993567386642096,
+      "bm25_keyword": 0.001520579336447153,
+      "title_match": 0.09166029749553412,
+      "tag_overlap": -0.037243412214470625,
+      "recency": 0.0016611249999999992,
+      "content_completeness": 0.0,
+      "cold_start_support": 0.0017989862499999815
+    },
+    "top3_contribution_share": 0.9635338001050407,
+    "cold_start_flag": true,
+    "cold_start_note": "Cold-start support is active because the paper is recent or lightly cited."
+  },
+  {
+    "query": "BERT language model text classification NLP",
+    "paper_id": "BQEskORvhNQJ",
+    "paper_title": "Large-scale news classification using bert language model: Spark nlp approach",
+    "score": 0.7851951046518976,
+    "baseline_score": 0.7175108009268271,
+    "top_driver": "title_match",
+    "grounding_terms": [
+      "model",
+      "nlp",
+      "bert",
+      "classification",
+      "language",
+      "text"
+    ],
+    "evidence_snippets": [
+      "title mentions \"model\"",
+      "title mentions \"nlp\"",
+      "title mentions \"bert\""
+    ],
+    "feature_values": {
+      "semantic_similarity": 0.9515742063522339,
+      "bm25_keyword": 0.8163705948670535,
+      "title_match": 1.0,
+      "tag_overlap": 0.1875,
+      "recency": 0.8,
+      "content_completeness": 1.0,
+      "cold_start_support": 0.79
+    },
+    "feature_contributions": {
+      "semantic_similarity": -0.0019899273136630654,
+      "bm25_keyword": 0.0017161845076701665,
+      "title_match": 0.09166029749553412,
+      "tag_overlap": -0.024097162214470624,
+      "recency": 0.0004971249999999991,
+      "content_completeness": 0.0,
+      "cold_start_support": -0.00010221375000001917
+    },
+    "top3_contribution_share": 0.9807140835396683,
+    "cold_start_flag": false,
+    "cold_start_note": "Cold-start support is inactive because the paper has stronger historical evidence."
+  },
+  {
+    "query": "deep learning computer vision object detection",
+    "paper_id": "6cYtk_ySfu4J",
+    "paper_title": "Machine learning in computer vision",
+    "score": 0.8263022212928783,
+    "baseline_score": 0.7175108009268271,
+    "top_driver": "title_match",
+    "grounding_terms": [
+      "learning",
+      "computer",
+      "vision",
+      "object",
+      "detection"
+    ],
+    "evidence_snippets": [
+      "title mentions \"learning\"",
+      "title mentions \"computer\"",
+      "title mentions \"vision\""
+    ],
+    "feature_values": {
+      "semantic_similarity": 0.9589986801147461,
+      "bm25_keyword": 1.0,
+      "title_match": 0.9441888818666229,
+      "tag_overlap": 0.4,
+      "recency": 0.76,
+      "content_completeness": 1.0,
+      "cold_start_support": 0.778
+    },
+    "feature_contributions": {
+      "semantic_similarity": -0.0001880075315013528,
+      "bm25_keyword": 0.003497389737459747,
+      "title_match": 0.07811493912456349,
+      "tag_overlap": 0.02747658778552938,
+      "recency": 0.00010912499999999875,
+      "content_completeness": 0.0,
+      "cold_start_support": -0.00021861375000001927
+    },
+    "top3_contribution_share": 0.9952944859486937,
+    "cold_start_flag": false,
+    "cold_start_note": "Cold-start support is inactive because the paper has stronger historical evidence."
+  },
+  {
+    "query": "graph neural networks knowledge graphs",
+    "paper_id": "H7oFvow_6K8J",
+    "paper_title": "A comprehensive survey of graph neural networks for knowledge graphs",
+    "score": 0.8707510913943697,
+    "baseline_score": 0.7175108009268271,
+    "top_driver": "title_match",
+    "grounding_terms": [
+      "graph",
+      "knowledge",
+      "neural",
+      "networks",
+      "graphs"
+    ],
+    "evidence_snippets": [
+      "title mentions \"graph\"",
+      "title mentions \"knowledge\"",
+      "title mentions \"neural\""
+    ],
+    "feature_values": {
+      "semantic_similarity": 0.9854070544242859,
+      "bm25_keyword": 0.9191133284119092,
+      "title_match": 1.0,
+      "tag_overlap": 0.5,
+      "recency": 0.84,
+      "content_completeness": 1.0,
+      "cold_start_support": 0.802
+    },
+    "feature_contributions": {
+      "semantic_similarity": 0.006221304913423956,
+      "bm25_keyword": 0.002712789023055266,
+      "title_match": 0.09166029749553412,
+      "tag_overlap": 0.051746587785529374,
+      "recency": 0.0008851249999999984,
+      "content_completeness": 0.0,
+      "cold_start_support": 1.4186249999980938e-05
+    },
+    "top3_contribution_share": 0.9764285211021556,
+    "cold_start_flag": false,
+    "cold_start_note": "Cold-start support is inactive because the paper has stronger historical evidence."
+  },
+  {
+    "query": "reinforcement learning robotics control",
+    "paper_id": "8qVBDlotlzAJ",
+    "paper_title": "Learning control in robotics",
+    "score": 0.7949888215213468,
+    "baseline_score": 0.7175108009268271,
+    "top_driver": "title_match",
+    "grounding_terms": [
+      "learning",
+      "control",
+      "robotics",
+      "reinforcement"
+    ],
+    "evidence_snippets": [
+      "title mentions \"learning\"",
+      "title mentions \"control\"",
+      "title mentions \"robotics\""
+    ],
+    "feature_values": {
+      "semantic_similarity": 0.9684910178184509,
+      "bm25_keyword": 0.41097438111429047,
+      "title_match": 1.0,
+      "tag_overlap": 0.25,
+      "recency": 0.36,
+      "content_completeness": 1.0,
+      "cold_start_support": 0.658
+    },
+    "feature_contributions": {
+      "semantic_similarity": 0.0021157828291878105,
+      "bm25_keyword": -0.0022161587657316354,
+      "title_match": 0.09166029749553412,
+      "tag_overlap": -0.008928412214470622,
+      "recency": -0.0037708750000000017,
+      "content_completeness": 0.0,
+      "cold_start_support": -0.0013826137500000193
+    },
+    "top3_contribution_share": 0.9480844879454151,
+    "cold_start_flag": false,
+    "cold_start_note": "Cold-start support is inactive because the paper has stronger historical evidence."
+  }
+]

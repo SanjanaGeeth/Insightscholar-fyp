@@ -1,0 +1,98 @@
+.App {
+  min-height: 100vh;
+}
+
+/* Hero section - matches presentation blue gradient with wave overlay */
+.hero-bg {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Spiral pattern overlay */
+.hero-bg::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    /* Large spiral - right side */
+    radial-gradient(ellipse 600px 600px at 85% 50%, transparent 30%, rgba(255,255,255,0.03) 31%, transparent 32%),
+    radial-gradient(ellipse 500px 500px at 85% 50%, transparent 30%, rgba(255,255,255,0.04) 31%, transparent 32%),
+    radial-gradient(ellipse 400px 400px at 85% 50%, transparent 30%, rgba(255,255,255,0.05) 31%, transparent 32%),
+    radial-gradient(ellipse 300px 300px at 85% 50%, transparent 30%, rgba(255,255,255,0.04) 31%, transparent 32%),
+    radial-gradient(ellipse 200px 200px at 85% 50%, transparent 30%, rgba(255,255,255,0.03) 31%, transparent 32%),
+    /* Small spiral - left side */
+    radial-gradient(ellipse 350px 350px at 10% 60%, transparent 30%, rgba(255,255,255,0.03) 31%, transparent 32%),
+    radial-gradient(ellipse 280px 280px at 10% 60%, transparent 30%, rgba(255,255,255,0.04) 31%, transparent 32%),
+    radial-gradient(ellipse 210px 210px at 10% 60%, transparent 30%, rgba(255,255,255,0.05) 31%, transparent 32%),
+    radial-gradient(ellipse 140px 140px at 10% 60%, transparent 30%, rgba(255,255,255,0.04) 31%, transparent 32%);
+  animation: spiralFloat 25s ease-in-out infinite;
+  pointer-events: none;
+}
+
+/* Spiral arcs using conic gradients */
+.hero-bg::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    /* Right spiral arcs */
+    conic-gradient(from 0deg at 80% 45%, transparent 0deg, rgba(255,255,255,0.06) 30deg, transparent 60deg),
+    conic-gradient(from 60deg at 82% 48%, transparent 0deg, rgba(255,255,255,0.05) 40deg, transparent 80deg),
+    conic-gradient(from 140deg at 78% 52%, transparent 0deg, rgba(255,255,255,0.04) 35deg, transparent 70deg),
+    conic-gradient(from 220deg at 83% 42%, transparent 0deg, rgba(255,255,255,0.05) 30deg, transparent 65deg),
+    /* Left spiral arcs */
+    conic-gradient(from 180deg at 12% 55%, transparent 0deg, rgba(255,255,255,0.05) 25deg, transparent 55deg),
+    conic-gradient(from 250deg at 14% 58%, transparent 0deg, rgba(255,255,255,0.04) 35deg, transparent 65deg),
+    conic-gradient(from 320deg at 10% 52%, transparent 0deg, rgba(255,255,255,0.03) 30deg, transparent 60deg);
+  animation: spiralFloat 25s ease-in-out infinite reverse;
+  pointer-events: none;
+}
+
+@keyframes spiralFloat {
+  0%, 100% { transform: rotate(0deg) scale(1); opacity: 1; }
+  33% { transform: rotate(3deg) scale(1.02); opacity: 0.9; }
+  66% { transform: rotate(-2deg) scale(0.98); opacity: 1; }
+}
+
+/* Stat counter animation */
+.stat-number {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Paper card hover lift */
+.paper-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.paper-card:hover {
+  transform: translateY(-2px);
+}
+
+/* Tab indicator animation */
+.tab-indicator {
+  transition: left 0.3s ease, width 0.3s ease;
+}
+
+/* Search input focus ring - blue tint */
+.search-input:focus-within {
+  box-shadow: 0 0 0 3px rgba(59, 91, 219, 0.15);
+  border-color: #91a7ff !important;
+}
+
+/* Filter panel slide */
+.filter-panel {
+  transition: max-height 0.3s ease, opacity 0.2s ease;
+  overflow: hidden;
+}
+
+/* Score bar animation */
+.score-bar {
+  transition: width 0.6s ease-out;
+}
+
+/* Chip hover */
+.chip {
+  transition: all 0.15s ease;
+}
+.chip:hover {
+  transform: scale(1.02);
+}

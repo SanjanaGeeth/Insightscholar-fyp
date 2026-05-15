@@ -1,0 +1,60 @@
+{
+  "timestamp": "2026-03-29T06:27:28.899086",
+  "corpus_size": 721,
+  "training_queries": [
+    "explainable AI recommendation systems",
+    "citation recommendation academic papers neural",
+    "information retrieval dense passage retrieval transformer",
+    "scientific document similarity embeddings",
+    "transformer models natural language processing",
+    "large language models prompt engineering",
+    "attention mechanism self-supervised learning",
+    "sentence embeddings semantic textual similarity",
+    "deep learning computer vision object detection",
+    "contrastive learning self-supervised visual representation",
+    "multi-modal learning vision language models",
+    "graph neural networks node classification link prediction",
+    "knowledge graph embedding entity relation",
+    "federated learning privacy preserving machine learning",
+    "knowledge distillation model compression pruning",
+    "neural architecture search automated machine learning",
+    "reinforcement learning policy gradient reward",
+    "anomaly detection time series deep learning",
+    "causal inference observational data machine learning",
+    "diffusion models generative image synthesis"
+  ],
+  "model": "allenai/specter2_base",
+  "embedding_dim": 768,
+  "optimised_weights": {
+    "semantic_similarity": 0.9635509533832257,
+    "bm25_keyword": 0.030519661914094477,
+    "title_match": 1.8518492561636584e-05,
+    "tag_overlap": 0.005910725895322565,
+    "recency": 1.4031479559844423e-07
+  },
+  "default_weights": {
+    "semantic_similarity": 0.45,
+    "bm25_keyword": 0.25,
+    "title_match": 0.1,
+    "tag_overlap": 0.1,
+    "recency": 0.1
+  },
+  "metrics": {
+    "default": {
+      "ndcg@10": 0.5647090428353415,
+      "mrr": 0.5358333333333334,
+      "p@10": 0.39999999999999997
+    },
+    "optimised": {
+      "ndcg@10": 0.6552431376856604,
+      "mrr": 0.7583333333333333,
+      "p@10": 0.49000000000000005
+    }
+  },
+  "cv_mean_ndcg": 0.5163433809281572,
+  "cv_std_ndcg": 0.102751453275141,
+  "faithfulness_rate": 1.0,
+  "mean_shap_correlation": 0.9999302984537799,
+  "anchor_avg_precision": 1.0,
+  "anchor_avg_coverage": 0.2081
+}
